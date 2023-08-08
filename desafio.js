@@ -146,7 +146,6 @@ if (jugadorUno.habilidades.vida > jugadorDos.habilidades.vida) {
   }
   
   // Mostrar el resultado:
-  console.log("Marce", contadorPuntosJug1, "Flor", contadorPuntosJug2,ganador === "Empate"
+  console.log("Marce:", contadorPuntosJug1, "Flor:", contadorPuntosJug2,ganador === "Empate"
   ? "La partida terminó en empate."
-  : "El ganador es " + ganador + ".");
-
+  : "El ganador es: " + ganador + ".");
